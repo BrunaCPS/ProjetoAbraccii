@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraccii</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+
+</head>
+<body class="bodyOutros">
+    <header>
+
+        <a href="index.html" id="linkHeader">
+            <img src="img/logo.png" alt="Logo Abraccii" id="logo">
+            <img src="img/ABRACCII.png" alt="Abraccii" id="nome">
+        </a>
+
+        <nav>
+            <a href="objetivo.html">Objetivo</a>
+            <a href="apoiadores.html">Apoiadores</a>
+            <a href="contato.html">Contato</a>
+            <a href="apoie.html" id="apoie">APOIE</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contato</h2>
+        <form class="formContato" action="http://hub.fatecrl.edu.br/sobrino/recebe-v2.php" method="post">
+            <h3>Envie-nos uma mensagem</h3>
+
+            <input type="text" class="nomeC" placeholder="Nome Completo" required>
+
+            <input type="email" class="emailC" placeholder="E-mail" required>
+
+            <input type="tel" class="telefoneC" placeholder="Telefone" required>
+
+            <select id="selectC" required>
+                <option value="duvida">Dúvidas, perguntas, questionamentos</option>
+                <option value="sugestao">Sugestões de melhoria</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="relato">Relato ou História na Abraccii</option>
+                <option value="outro"> Outro </option>
+            </select>
+
+            <textarea id="mensagemC" placeholder="Mensagem" required></textarea>
+
+            <button type="submit" id="btnContato">Enviar</button>
+        </form>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.411563753804!2d-46.334336885575084!3d-23.945882481788185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce038224d48849%3A0xe3b8c2777f0794b8!2sAbraccii!5e0!3m2!1spt-BR!2sbr!4v1669335304702!5m2!1spt-BR!2sbr" id="mapa" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div id="atendimento">
+            <p>Atendimento: </p>
+            <p>(13) 3345-7800 </p>
+            <p>(13) 97411-1940</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="divVazio">   </div>
+
+        <div id="enderecoA"> 
+            <p class="titleFooter">Endereço</p>
+            <p>Rua Silveira Lobo, nº 01 </p>
+            <p>Vila Mathias, Santos/SP</p>
+            <p>CEP 11075-290</p>
+         </div>
+
+         <div id="funcionamentoA">
+            <p class="titleFooter">Funcionamento</p>
+            <p>Segunda à sexta</p>
+            <p>Das 09h as 17h</p>
+         </div>
+
+         <div id="contatoA">
+            <p class="titleFooter">Contato</p>
+            <p>(13) 3345-7800</p>
+            <p>(13) 97411-1940</p>
+            <p>contato@abraccii.org.br</p>
+         </div>
+
+         <div id="redesA">
+            <p class="titleFooter">Redes Sociais</p>
+            <ul>
+                <li><a href="https://www.instagram.com/abraccii/" target="_blank" id="insta">Instagram</a></li>
+                <li><a href="https://www.facebook.com/abracciiong/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCHPv1npXBF4Qgx-eMDujgrA" target="_blank">Youtube</a></li>
+                <li><a href="https://www.linkedin.com/in/abraccii-ong-0b58619a/?originalSubdomain=br" target="_blank">Linkedin</a></li>
+            </ul>
+        </div>
+
+        <div class="divVazio">  </div>
+    </footer>
+    
+</body>
+</html>

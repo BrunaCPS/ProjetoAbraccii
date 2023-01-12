@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraccii</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+
+</head>
+<body class="bodyOutros">
+    <header>
+
+        <a href="index.html" id="linkHeader">
+            <img src="img/logo.png" alt="Logo Abraccii" id="logo">
+            <img src="img/ABRACCII.png" alt="Abraccii" id="nome">
+        </a>
+
+        <nav>
+            <a href="objetivo.html">Objetivo</a>
+            <a href="apoiadores.html">Apoiadores</a>
+            <a href="contato.html">Contato</a>
+            <a href="apoie.html" id="apoie">APOIE</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Seja um sócio mantedenor</h2>
+        <br>
+        <p>Deseja ser um sócio mantenedor da Abraccii?
+            Preencha o formulário abaixo que logo retornaremos.
+            Abraccii esta causa! </p>
+
+        <form action="http://hub.fatecrl.edu.br/sobrino/recebe-v2.php" method="post">
+
+            <fieldset id="formAssociado">
+    
+            <!-- Linha 1 -->
+            <label for="nomeA"></label>
+            <input type="text" id="nomeA" name="nome" class="linhaCompleta" required placeholder="Nome Completo *">
+    
+            <!-- Linha 2 -->
+            <label for="nascimento" class="nascimento">Data de Nascimento: </label>
+            <input type="date" id="nascimento" name="nascimento" required>
+    
+            <!-- Linha 3 -->
+            <label for="telefone"></label>
+            <input type="tel" class="telefone" id="telefone" name="telefone" required placeholder="Telefone/Celular *">
+    
+            <label for="email" class="email"></label>
+            <input type="email" class="email" id="email" name="email" required placeholder="Email *">
+    
+            <!-- Linha 4 -->
+            <label for="endereco"></label>
+            <input type="text" class="endereco" id="endereco" name="endereco" required placeholder="Endereço *">
+    
+            <label for="bairro" class="bairro"></label>
+            <input type="text" class="bairro" id="bairro" name="bairro" required placeholder="Bairro *">
+    
+            <label for="cidade" class="cidade"></label>
+            <input type="text" id="cidade" class="cidade" name="cidade" required placeholder="Cidade *">
+            
+    
+            <!--Linha 5-->
+            <label for="contribuicao">Selecione a forma de contribuição: </label>
+            <select id="contribuicao" name="contribuicao" class="linhaCompleta" required > 
+                <option value="blank"> . </option>
+                <option value="a">Pix</option>
+                <option value="b">Depósito ou Transferência</option>
+                <option value="c">Boleto Bancário</option>
+                <option value="d">Mensageiro (coleta realizada no endereço cadastrado) </option>
+            </select>
+    
+            <!--Linha 6-->
+            <label for="period">Periodicidade: </label>
+            <select id="period" name="period" class="linhaCompleta"  required > 
+                <option value="blank"> . </option>
+                <option value="a">Mensal</option>
+                <option value="b">Bimestral</option>
+                <option value="c">Trimestral</option>
+                <option value="d">Semestral</option>
+                <option value="e">Anual</option>
+                <option value="f">Doação Única</option>
+                <option value="g">Campanhas (Dia das Crianças, Natal, Páscoa...)</option>
+            </select>
+    
+            <button type="submit" class="btnEnviar">Enviar</button>
+            </fieldset>
+    
+            </form>
+    </main>
+
+    <footer>
+        <div class="divVazio">   </div>
+
+        <div id="enderecoA"> 
+            <p class="titleFooter">Endereço</p>
+            <p>Rua Silveira Lobo, nº 01 </p>
+            <p>Vila Mathias, Santos/SP</p>
+            <p>CEP 11075-290</p>
+        </div>
+
+        <div id="funcionamentoA">
+            <p class="titleFooter">Funcionamento</p>
+            <p>Segunda à sexta</p>
+            <p>Das 09h as 17h</p>
+        </div>
+
+        <div id="contatoA">
+            <p class="titleFooter">Contato</p>
+            <p>(13) 3345-7800</p>
+            <p>(13) 97411-1940</p>
+            <p>contato@abraccii.org.br</p>
+        </div>
+
+        <div id="redesA">
+            <p class="titleFooter">Redes Sociais</p>
+            <ul>
+                <li><a href="https://www.instagram.com/abraccii/" target="_blank" id="insta">Instagram</a></li>
+                <li><a href="https://www.facebook.com/abracciiong/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCHPv1npXBF4Qgx-eMDujgrA" target="_blank">Youtube</a></li>
+                <li><a href="https://www.linkedin.com/in/abraccii-ong-0b58619a/?originalSubdomain=br" target="_blank">Linkedin</a></li>
+            </ul>
+        </div>
+        <div class="divVazio">   </div>
+    </footer>
+</body>
+</html>

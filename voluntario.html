@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraccii</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+
+</head>
+<body class="bodyOutros">
+    <header>
+
+        <a href="index.html" id="linkHeader">
+            <img src="img/logo.png" alt="Logo Abraccii" id="logo">
+            <img src="img/ABRACCII.png" alt="Abraccii" id="nome">
+        </a>
+
+        <nav>
+            <a href="objetivo.html">Objetivo</a>
+            <a href="apoiadores.html">Apoiadores</a>
+            <a href="contato.html">Contato</a>
+            <a href="apoie.html" id="apoie">APOIE</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Seja um voluntário</h2>
+        <br>
+
+        <p>Voluntarie-se na Abraccii. O trabalho voluntário a ser desempenhado junto a esta instituição, de acordo com a Lei nº9.608 de 18/02/1998 é atividade não renumerada, com finalidades - assistencias, educacionais, cientificas, cívicas, culturais, recreativas, tecnológicas ou outras - e não gera vínculo empregatício nem funcional, ou quaiquer obrigações trabalhistas, previdenciárias e afins.</p>
+
+        <form action="http://hub.fatecrl.edu.br/sobrino/recebe-v2.php" method="post"> 
+            <fieldset id="formVoluntario" >
+            <!-- Linha 1 -->
+            <label for="nomeV"></label>
+            <input type="text" id="nomeV" name="nome" class="linhaCompleta" required placeholder="Nome Completo *">
+
+            <!-- Linha 2 -->
+            <label for="telefoneV"></label>
+            <input type="tel" class="telefone" id="telefoneV" name="telefone" required placeholder="Telefone/Celular *">
+
+            <label for="emailV" class="email"></label>
+            <input type="email" class="email" id="emailV" name="email" required placeholder="Email *">
+
+            <!-- Linha 3 -->
+            <label for="enderecoV"></label>
+            <input type="text" class="endereco" id="enderecoV" name="endereco" required placeholder="Endereço *">
+
+            <label for="bairroV" class="bairro"></label>
+            <input type="text" class="bairro" id="bairroV" name="bairro" required placeholder="Bairro *">
+
+            <label for="cidadeV" class="cidade"></label>
+            <input type="text" id="cidadeV" class="cidade" name="cidade" required placeholder="Cidade *">
+
+            <!-- Linha 4 -->
+            <label for="rgV" class="rg"></label>
+            <input type="text" id="rgV" class="rg" name="rg" required placeholder="RG *" maxlength="9" minlength="9" >
+
+            <label for="cpfV" class="cpf"></label>
+            <input type="text" id="cpfV" class="cpf" name="cpf" required placeholder="CPF *" maxlength="11" minlength="11">
+
+            <!--Linha 6-->
+            <label for="ajudar"></label>
+            <select id="ajudar" name="ajudar" class="linhaCompleta" required > 
+                <option value="blank">Desejo ajudar a Abraccii com...</option>
+                <option value="a">Casa de Apoio</option>
+                <option value="b">Eventos</option>
+                <option value="c">Visitas nas casas</option>
+                <option value="d">Rotinas Administrativas</option>
+            </select>
+
+            <!--Linha 7-->
+            <label for="disponib"></label>
+            <select id="disponib" name="disponib" class="linhaCompleta" required > 
+                <option value="blank">Disponibilidade *</option>
+                <option value="a">Semanal</option>
+                <option value="b">Quinzenal</option>
+                <option value="c">Mensal</option>
+            </select>
+
+            <!--Linha 8-->
+            <textarea name="resultados" class="linhaCompleta" placeholder="Resultados esperados, comentários adicionais, dúvidas..."></textarea>
+
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <div class="divVazio">   </div>
+
+        <div id="enderecoA"> 
+            <p class="titleFooter">Endereço</p>
+            <p>Rua Silveira Lobo, nº 01 </p>
+            <p>Vila Mathias, Santos/SP</p>
+            <p>CEP 11075-290</p>
+        </div>
+
+        <div id="funcionamentoA">
+            <p class="titleFooter">Funcionamento</p>
+            <p>Segunda à sexta</p>
+            <p>Das 09h as 17h</p>
+        </div>
+
+        <div id="contatoA">
+            <p class="titleFooter">Contato</p>
+            <p>(13) 3345-7800</p>
+            <p>(13) 97411-1940</p>
+            <p>contato@abraccii.org.br</p>
+        </div>
+
+        <div id="redesA">
+            <p class="titleFooter">Redes Sociais</p>
+            <ul>
+                <li><a href="https://www.instagram.com/abraccii/" target="_blank" id="insta">Instagram</a></li>
+                <li><a href="https://www.facebook.com/abracciiong/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCHPv1npXBF4Qgx-eMDujgrA" target="_blank">Youtube</a></li>
+                <li><a href="https://www.linkedin.com/in/abraccii-ong-0b58619a/?originalSubdomain=br" target="_blank">Linkedin</a></li>
+            </ul>
+        </div>
+        <div class="divVazio">   </div>
+    </footer>
+</body>
+</html>
