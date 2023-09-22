@@ -9,9 +9,4 @@ Prototipação da página web, segue abaixo o arquivo feito no Figma:
 <br><br>
 Apresentação do projeto completo realizado no Canva: https://www.canva.com/design/DAFTETuTKns/EN2VXZlk_c6LCgD9sIoiBw/view?utm_content=DAFTETuTKns&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent
 <br><br>
-<--
-<div align="center">
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-<img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white">
-</div>
--->
+
